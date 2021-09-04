@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/global.css" />
+    </head>
+
+    <body>
+        <h1>Car Detail - $car.getId()</h1>
+
+        <h2>You just choose a car with those characteristics:</h2>
+
+        <div class="car-details">
+            <span>ID: $car.getId()</span>
+            <span>Brand: $car.getBrand()</span>
+            <span>Model: $car.getModel()</span>
+            <span>Color: $car.getColor()</span>
+        </div>
+    </body>
+</html>

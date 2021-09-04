@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/global.css" />
+    </head>
+
+    <body>
+        <h1>Car Edit - $car.getId()</h1>
+
+        <h2>You just choose a car with those characteristics:</h2>
+
+            <form method="post" action="/carsUp">
+
+                <label for="id">ID</label>
+                <input type="text" id="id" name="id" placeholder="id" value= "$car.getId()" readonly/>
+                </br>
+
+                <label for="brand">Brand</label>
+                <input type="text" id="brand" name="brand" placeholder="brand" value= "$car.getBrand()" />
+                </br>
+
+                <label for="model">Model</label>
+                <input type="text" id="model" name="model" placeholder="model" value="$car.getModel()" />
+                </br>
+
+                <label for="color">Color</label>
+                <input type="text" id="color" name="color" placeholder="color" value="$car.getColor()" />
+                </br>
+
+                <input type="submit" value="Update" class="submit" />
+
+            </form>
+        </body>
+</html>

@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/global.css" />
+    </head>
+
+    <body>
+        <h1>Cars App</h1>
+
+        #foreach($car in $cars)
+            <div class="list-item">
+                <span>
+                    <a href="/car/$car.getId()" class="lista-objeto-1">
+                            $car.getId()
+                            $car.getBrand()
+                            $car.getModel()
+                            $car.getColor()
+                    </a>
+                </span>
+                <span>
+                    <a href="/cars/edit/$car.getId()" class="lista-objeto-2">Editar</a>
+                </span>
+                <span>
+                    <a href="/cars/remove/$car.getId()" class="lista-objeto-2">Remover</a>
+                </span>
+            </div>
+        #end
+
+        <a href="/cars/new" class="create-car">Create Car</a>
+    </body>
+</html>

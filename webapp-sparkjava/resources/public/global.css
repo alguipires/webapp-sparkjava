@@ -1,0 +1,100 @@
+* {
+    font-family: sans-serif;
+    background-color: #e3e3e3;
+    color: #434343;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    background-color: #434343;
+    color: #e3e3e3;
+    padding: 8pt;
+    margin-bottom: 16pt;
+}
+
+.list-item {
+    background-color: white;
+    padding: 4pt;
+    margin: 4pt;
+    border-radius: 4pt;
+}
+
+.lista-objeto-1{
+    background-color: white;
+    text-color: black;
+    border-radius: 4pt;
+    padding: 4pt;
+}
+
+.lista-objeto-2 {
+    background-color: blue;
+    text-color: black;
+    border-radius: 4pt;
+    padding: 4pt;
+}
+
+.create-car {
+    background-color: #6389ce;
+    color: #e3e3e3;
+    padding: 8pt;
+    border-radius: 8pt;
+    margin-top: 16pt;
+    margin-left: 4pt;
+    margin-right: 4pt;
+    text-align: center;
+}
+
+.car-details {
+    background-color: white;
+    padding: 4pt;
+    margin: 4pt;
+    border-radius: 4pt;
+    display: flex;
+    flex-direction: column;
+}
+
+.car-details > span{
+    background-color: white;
+    margin-top: 4pt;
+}
+
+h2 {
+    margin-left: 4pt;
+}
+
+form {
+    background-color: white;
+    padding: 4pt;
+    margin: 4pt;
+    border-radius: 4pt;
+    display: flex;
+    flex-direction: column;
+}
+
+form > label {
+     background-color: white;
+}
+
+form > input {
+    border: 0;
+    padding: 4pt;
+    border-radius: 4pt;
+}
+
+.submit {
+    background-color: #6389ce;
+    color: #e3e3e3;
+    padding: 8pt;
+    border-radius: 8pt;
+    text-align: center;
+}
